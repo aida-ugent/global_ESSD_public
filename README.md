@@ -12,6 +12,7 @@ Source code for paper: Mining Explainable Subgraphs with Surprising Densities, L
     *  matplotlib 3.0.0
     *  networkx 2.2
     *  scikit-learn 0.20.0
+    *  graphviz 0.10.1
 
 ## Data
 
@@ -30,10 +31,10 @@ We run experiments on several real-world networks, including:
    DblpAffs, DblpTopics;
    two DBLP citation networks extracted from https://aminer.org/citation
    dblp_papers_v11.txt
-   
+
 *  **MPvotes**:
    the Twitter social network generated from friendships between Members of Parliament (MPs) in UK.
-    
+
 
 ## Run
 
@@ -42,7 +43,7 @@ We run experiments on several real-world networks, including:
     run script 'single_sgd.py' to generate results
 
 
-*  **Comparison to other different measures**:
+*  **Single-subgroup pattern discovery using other objective measures for a comparative study**:
     run script 'single_sgd_compare.py' to identify most interesting single-subgroup patterns w.r.t other different measures
 
 
@@ -51,9 +52,25 @@ We run experiments on several real-world networks, including:
 
 
 *  **Bi-subgroup pattern discovery using our SI measures, based on incorporating the user’s prior knowledge about ‘year’, ‘dorm/house’  
-    attributes in either Caltech36 or Reed98 dataset**: 
+    attributes in either Caltech36 or Reed98 dataset**:
     run script 'bi_sgd_attrPrior.py'
 
+
+*  **Global pattern discovery (summarization) on DblpAffs**:
+   run script 'find_citation_patterns_globally_affs.py'
+
+
+*  **Global pattern discovery (summarization) on DblpTopics**:
+   run script 'find_citation_patterns_globally_topics.py'
+
+
+*  **Global pattern discovery (summarization) on MPvotes**:
+   run script 'find_patterns_globally_MP.py'
+
+*  **Scalability evaluation: the effect of |S|**:
+    *  single-subgroup pattern discovery: run script 'scalability_single_sgd.py'
+    *  bi-subgroup pattern discovery: run script 'scalability_bi_sgd.py'
+    *  global pattern discovery (summarization): run script 'scalability_global_sgd.py'
 
 ## Do not contribute to
 
