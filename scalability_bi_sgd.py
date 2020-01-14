@@ -19,7 +19,6 @@ import os
 import time
 import pickle
 
-from visualisation import *
 from get_graph_and_attributes import *
 
 

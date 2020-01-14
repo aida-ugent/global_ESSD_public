@@ -534,7 +534,7 @@ if __name__ == "__main__":
 
     # compute selector store
     store = compute_store(attr_M)
-    print(store)
+
     #
     # compute the summary
     summary = memoize(summarize, summary_file,
