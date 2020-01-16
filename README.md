@@ -27,8 +27,8 @@ We run experiments on several real-world networks, including:
    [2]Amanda L. Traud, Peter J. Mucha, Mason A. Porter, Social structure of Facebook networks, Physica A: Statistical Mechanics and its Applications,
    Volume 391, Issue 16, 2012,Pages 4165-4180, ISSN 0378-4371, https://doi.org/10.1016/j.physa.2011.12.021. (http://www.sciencedirect.com/science/article/pii/S0378437111009186)
 
-*  **Dblp**:
-   DblpAffs, DblpTopics;
+*  **DBLP**:
+   DBLPaffs, DBLPtopics;
    two DBLP citation networks extracted from https://aminer.org/citation
    dblp_papers_v11.txt
 
